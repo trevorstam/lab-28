@@ -1,42 +1,57 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 28: Props and State
 
-### Author: Student/Group Name
+### Author: 
+Trevor Stam
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [assignment 1](https://codesandbox.io/s/88y5w67lz8)
+* [assignment 2](https://codesandbox.io/s/6v28vwmoyr)
+* [assignment 3](https://codesandbox.io/s/kwnvxjnpmr)
+
 
 ### Modules
-#### `modulename.js`
+### Assignment 1
+#### `index.js`
 ##### Exported Values and Methods
+- class App
+- `render()`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `message.js`
+##### Exported Values and Methods
+- class Message
+- `render()`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+### Assignment 2
+#### `index.js`
+##### Exported Values and Methods
+- class App
+- `getFormOutput(formOutput)`
+- `countData(clicks)`
+- `render()`
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `form.js`
+##### Exported Values and Methods
+- class Form
+-  `nameGiver(event)`
+- `subMitter(event)`
+- `render()`
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+### Assignment 3
+#### `index.js`
+##### Exported Values and Methods
+- class App
+- `handleSubmit(name)`
+- `render()`
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+#### `form.js`
+##### Exported Values and Methods
+- class Form
+- `render()`
+
+
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML - lab 28](./assets/UML-lab28.jpg)
